@@ -6,8 +6,24 @@
     <title>Bài Học Đầu Tiên</title>
 </head>
 <style>
-    div {
-        border: 15px solid black;
+    .cha {
+        width: 600px;
+        height: 100px;
+        border: 10px solid black;
+        padding: 50px;
+        margin: 20px;
+    }
+
+    #left {
+        float: left;
+        width: auto;
+        margin: auto;
+    }
+
+    #right {
+        float: right;
+        width: auto;
+        margin: auto;
     }
 </style>
 
@@ -37,23 +53,25 @@
         lai không xa.</blockquote>
     <a href="https://kenh68.net/hinh-anh-meo-de-thuong-cute/" target="_blank"><img src="../image/meo.jpg"
             alt="ảnh con mèo mập địch" width="300px"></a> -->
-    <div>
-        <p>Danh sách HTML không có thứ tự:</p>
-        <ul>
-            <li>vật phẩm</li>
-            <li>vật phẩm</li>
-            <li>vật phẩm</li>
-            <li>vật phẩm</li>
+    <div class="cha">
+        <h4 id="left">Danh sách HTML không có thứ tự:
             <ul>
+                <li>vật phẩm</li>
+                <li>vật phẩm</li>
+                <li>vật phẩm</li>
+                <li>vật phẩm</li>
+            </ul>
+        </h4>
 
-                <p>Danh sách HTML có thứ tự:</p>
-                <ol>
-                    <li>mục đầu tiên</li>
-                    <li>mặt hàng thứ 2</li>
-                    <li>mặt hàng thứ 3</li>
-                    <li>mặt hàng thứ 4</li>
-                </ol>
-    </div>
+        <h4 id="right">Danh sách HTML có thứ tự:
+            <ol>
+                <li>mục đầu tiên</li>
+                <li>mặt hàng thứ 2</li>
+                <li>mặt hàng thứ 3</li>
+                <li>mặt hàng thứ 4</li>
+            </ol>
+        </h4>
+
 </body>
 
 </html>
